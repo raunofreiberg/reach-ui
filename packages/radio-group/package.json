@@ -1,0 +1,33 @@
+{
+  "name": "@reach/radio-group",
+  "version": "0.10.2",
+  "description": "Accessible React Radio Group component",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reach/reach-ui.git",
+    "directory": "packages/radio-group"
+  },
+  "scripts": {
+    "build": "ts-node ../../scripts/build"
+  },
+  "dependencies": {
+    "@reach/auto-id": "^0.10.2",
+    "@reach/descendants": "^0.10.2",
+    "@reach/utils": "^0.10.2",
+    "tslib": "^1.11.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/radio-group.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist",
+    "styles.css"
+  ]
+}
